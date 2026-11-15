@@ -1,0 +1,5 @@
+PASS SQLite 3.53.1 portable schema, seed, FK check and three constraint rejection probes.
+PASS SQLite five reporting queries, retake history, eight GPA rows and Amara's 4.60 GPA.
+PASS SQLite transaction snapshots and cleanup in one connection.
+PASS Python benchmark oracle: 100000 rows, 186 match the offered date range.
+PASS Node syntax check of both mongosh JavaScript files.

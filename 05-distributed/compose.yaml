@@ -1,0 +1,17 @@
+services:
+  db1:
+    image: mongo:8.0
+    command: ["mongod", "--replSet", "ur", "--bind_ip_all"]
+    volumes: ["db1-data:/data/db"]
+  db2:
+    image: mongo:8.0
+    command: ["mongod", "--replSet", "ur", "--bind_ip_all"]
+    volumes: ["db2-data:/data/db"]
+  db3:
+    image: mongo:8.0
+    command: ["mongod", "--replSet", "ur", "--bind_ip_all"]
+    volumes: ["db3-data:/data/db"]
+volumes:
+  db1-data:
+  db2-data:
+  db3-data:
